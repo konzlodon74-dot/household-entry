@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Hartley Ledger — Household Budget</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="rail">
+    <div class="brand"><span class="mark">§</span><div><strong>Hartley Ledger</strong><small>Household budget book</small></div></div>
+    <nav class="nav" id="nav">
+      <a href="#dashboard">Dashboard</a>
+      <a href="#budget">Budget</a>
+      <a href="#transactions">Transactions</a>
+      <a href="#goals">Savings goals</a>
+      <a href="#bills">Bills</a>
+      <a href="#reports">Reports</a>
+    </nav>
+    <div class="railfoot"><p>Family of four · Leeds<br>Book kept by Maya Hartley</p></div>
+  </aside>
+  <main class="stage">
+    <header class="topbar">
+      <div><h1 id="pagetitle">Dashboard</h1><p id="pagesub" class="sub"></p></div>
+      <label class="monthsel">Month
+        <select id="monthSelect" aria-label="Choose month"></select>
+      </label>
+    </header>
+    <section id="view" class="view"></section>
+    <footer class="foot">Hartley Ledger · All figures are illustrative for the Hartley household · Works fully offline</footer>
+  </main>
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
